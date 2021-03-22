@@ -3,7 +3,7 @@ const dates = Array();
 const inputDate = Array();
 
 
-function clearBox(elementID) {
+function main(elementID) {
     document.getElementById(elementID).innerHTML = "";
     document.getElementById("cleanList").style.display = "none";
 }
